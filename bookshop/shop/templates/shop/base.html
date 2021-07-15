@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>{% block title %} Bookshop {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" >
+</head>
+<body>
+<div class="header">
+    <img src="{% static 'img/books.jpg' %}">
+    <a href="/" class="logo"> Bookshop </a>
+</div>
+<div class="subheader">
+    <img src="{% static 'img/cart.png' %}" width="32" align="center">
+    {% with total_items=cart|length %}
+        {% if cart|length > 0 %}
+            <a href="{% url 'cart:cart_detail' %}">
+                {{ total_items }} item{{ total_items|pluralize }},
+                ${{ cart.get_total_price }}
+            </a>
+        {% else %}
+             0 items
+        {% endif %}
+    {% endwith %}
+</div>
+<div class="content">
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+</html>

@@ -1,0 +1,254 @@
+.logo {
+    font-family: Comic Sans MS;
+    font-size: 30pt;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: absolute;
+    left: 15px;
+    top: 100px;
+}
+
+.header {
+    position: relative;
+}
+
+.header img{
+    height: 210px;
+    width: 1330px;
+    object-fit: cover;
+}
+
+.subheader {
+    background-color: #800000;
+    padding: 20px 20px 30px 40px;
+    text-align: right;
+    font-size: 12pt;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.subheader a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12pt;
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    display: block;
+    margin-top: 10px;
+}
+
+.sidebar li {
+    list-style-type: none;
+    padding: 8px 8px 8px 35px;
+    font-size: 12pt;
+    font-family: Arial;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #800000;
+}
+
+.selected {
+    background-color: #800000;
+}
+
+.selected a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.product-list {
+    float: left;
+    margin-left: 20px;
+    transition: width .2s;
+    width: 80%;
+}
+
+.product-item {
+   width: 200px;
+   text-align: center;
+   margin: 0 auto;
+   background: white;
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+   position: relative;
+   display: inline-block;
+   padding: 15px 15px 15px 20px;
+}
+
+.product-item img {
+   width: 180px;
+   height: 280px;
+   object-fit: cover;
+   position: center;
+}
+
+.product-name {
+    text-decoration: none;
+    color: #800000;
+    font-size: 20px;
+    float: center;
+}
+
+.price {
+   font-size: 18px;
+   display: block;
+   margin-bottom: 12px;
+}
+
+.button {
+   display: inline-block;
+   padding: 0 12px;
+   background: #B22222;
+   color: white;
+   text-transform: uppercase;
+   font-size: 15px;
+   line-height: 28px;
+   text-decoration: none;
+}
+
+.product-item:hover button {
+   background: #fc5a5a;
+}
+
+.product-desc {
+    padding: 15px 15px 15px 20px;
+    display: block;
+    margin-left: 400px;
+}
+
+.product-detail img {
+   float: left;
+   width: 300px;
+   height: 500px;
+   object-fit: cover;
+   padding: 15px 15px 15px 20px;
+   display: block;
+}
+
+.product-desc p {
+    font-size: 23pt;
+    font-family: Arial;
+    font-weight: 700;
+    background: #FFFFFF;
+}
+
+.product-desc h2 a {
+    text-decoration: none;
+    color: #800000;
+}
+
+.product-desc h3 {
+    color: #BC8F8F;
+}
+
+.product-desc h1 {
+    font-size: 20pt;
+}
+
+.product-desc form input, .order-button{
+   display: inline-block;
+   padding: 0 12px;
+   background: #B22222;
+   color: white;
+   text-transform: uppercase;
+   font-size: 15px;
+   line-height: 28px;
+
+}
+
+.product-desc form p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.product-fulldesc {
+    margin-top: 20px;
+    font-size: 14pt;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+.cart{
+    font-size: 13pt;
+    width: 90%;
+    text-align: center;
+}
+
+
+.cart thead{
+    background-color: #800000;
+    color: #FFFFFF;
+}
+
+.text-right a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: #B22222;
+   color: white;
+   text-transform: uppercase;
+   font-size: 15px;
+   line-height: 28px;
+}
+
+.total{
+    text-align: left;
+    background-color: #800000;
+    color: #FFFFFF;
+    font-size: 16pt;
+}
+
+.cart img{
+   width: 150px;
+   height: 230px;
+   object-fit: cover;
+}
+.product td a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.product td{
+    color-background: #B0E0E6;
+}
+
+.order-form {
+    float: left;
+    width: 200px;
+    display: block;
+    font-size: 14pt;
+}
+
+.order-info {
+    display: block;
+    float: right;
+    margin-right: 120px;
+    margin-top: 0px;
+    padding: 20px 70px 15px 40px;
+    background-color: #FFE4E1;
+    font-size: 13pt;
+}
+
+.order-info p{
+    float: right;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.item-price {
+    float: right;
+    margin-left: 30px;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+}
